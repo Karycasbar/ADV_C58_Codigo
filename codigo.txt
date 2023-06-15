@@ -1,0 +1,29 @@
+    <ul class="menu">
+        <li class="links">INICIO</li>
+        <li class="links">VIDEOS</li>
+        <li class="links">TRABAJO</li>
+        <li class="links">TEXTOS</li>
+        <li class="links">CONTACTO</li>
+    </ul>
+-----------------------------------------------------------
+    .menu{
+    list-style: none; 
+    position: absolute;
+    top: 10px;
+    right:30px;
+    z-index:10;
+    cursor:pointer;
+}
+--------------------------------------------------------------------
+.links{
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+-----------------------------------------------------------------
+
+
